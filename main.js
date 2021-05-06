@@ -28,4 +28,4 @@ function fecha(){
 
 document.addEventListener("DOMContentLoaded", function(){
 	fecha();
-}
+});
