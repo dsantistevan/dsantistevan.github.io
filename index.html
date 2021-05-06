@@ -1,0 +1,200 @@
+<html>
+	<head>
+		<title> Resume - David Santistevan</title>
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+		<link rel="stylesheet" href="estilo_hojaVida.css">
+		<script src="main.js"></script>
+	</head>
+	
+	<body>
+		<img id="foto" src="Foto.jpg" height=150px width=150px>
+		<div class="seccion" id="seccionFecha">
+			<h3 id="fecha"></h3>
+		</div>
+		<h1 id="hojaVida">Resume</h1> 
+		<a href="hoja_de_vida.html"><button id="language">Spanish/Español</button></a>
+		<div class="seccion" id="datosPersonales">
+			<h2 class="titulo">Personal Info <button id='botonDatos' onclick="ocultarSeccion('datosPersonales','botonDatos',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-datosPersonales">
+				<p><b>Given Names: </b>David Alfredo</p>
+				<p><b>Family Names: </b>Santistevan Amat</p>
+				<p><b>Relationship status: </b>Single</p>
+				<p><b>Date of Birth: </b>25/10/1999</p>
+				<p><b>Email: </b><a href="mailto://dsantistevana99@gmail.com">dsantistevana99@gmail.com</a></p>
+				<p><b>Linkedin: </b><a href="https://www.linkedin.com/in/david-santistevan-amat"> Linkedin account</a></p>
+				<p><b>Github: </b><a href="https://www.github.com/dsantistevan/"> Github account</a></p>
+				<p><b>Facebook: </b><a href="https://www.facebook.com/david.santistevan.amat"> Facebook account</a></p>
+				<p><b>Instagram: </b><a href="https://www.instagram.com/dsantistevan99/"> Instagram account</a></p>
+			</div>
+		</div>
+
+		<div class="seccion" id="educacion">
+			<h2 class="titulo">Education <button id='botonEducacion' onclick="ocultarSeccion('educacion','botonEducacion',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-educacion">
+				<p><ul>
+					<li>Elementary School - High School: Colegio Alemán Humboldt (translates to Humboldt German School) 2004-2018</li>
+					<li>University: Computer Science Engineering at Escuela Superior Politécnica del Litoral (translates to Litoral Polytechnic School) 2018-Today</li>
+				</ul></p>
+			</div>
+		</div>
+
+		<div class="seccion" id="idiomas">
+			<h2 class="titulo"> Languages <button id='botonIdiomas' onclick="ocultarSeccion('idiomas','botonIdiomas',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-idiomas">
+				<table align="center">
+					<tr id="headerTabla">
+						<th>
+							<p>Language</p>
+						</th>
+						<th>
+							<p>Spoken level</p>
+						</th>
+						<th>
+							<p>Written level</p>
+						</th>
+						<th>
+							<p>Certifications</p>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<p>Spanish</p>
+						</td>
+						<td>
+							<p>100%</p>
+						</td>
+						<td>
+							<p>100%</p>
+						</td>
+						<td>
+							<p>Native speaker</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>English</p>
+						</td>
+						<td>
+							<p>95%</p>
+						</td>
+						<td>
+							<p>100%</p>
+						</td>
+						<td>
+							<p>TOEFL IBT C1 Certification</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>German</p>
+						</td>
+						<td>
+							<p>85%</p>
+						</td>
+						<td>
+							<p>85%</p>
+						</td>
+						<td>
+							<p>Sprachdiplom B2/C1</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		<div class="seccion" id="experiencia">
+			<h2 class="titulo">Experience <button id='botonExperiencia' onclick="ocultarSeccion('experiencia','botonExperiencia',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-experiencia">
+				<p><ol>
+					<li>Assistant professor at spanish class at <a href="https://phs.sowashco.org/">Park High School.</a> (Cottage Grove, Minnesota, USA; March 2015-April 2015)</li>
+					<li>Internship at german company <a href="https://www.ditis.de/index.html">ditis Systeme GmbH + Co. KG</a> in the IT Department. (Ulm, Germany; March 2017-April 2017)</li>
+					<li>Software developer for Sustainability Project at <a href="https://www.espol.edu.ec">Escuela Superior Politécnica del Litoral</a>(Guayaquil, Ecuador; September 2018-October 2018)</li>
+					<li>Teaching Assistant at college <a href="https://www.espol.edu.ec">Escuela Superior Politécnica del Litoral</a>(Guayaquil, Ecuador; May 2020-Today)</li>
+				</ol></p>
+			</div>
+		</div>
+
+		<div class="seccion" id="logros">
+			<h2 class="titulo">Achievements - Certifications <button id='botonLogros' onclick="ocultarSeccion('logros','botonLogros',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-logros">
+				<p><ul>
+					<li><a href="https://certiport.pearsonvue.com/Certifications/IC3/Digital-Literacy-Certification/Overview.aspx">IC3 Certificate</a> (Internet Core Competency Certification). Guayaquil, Ecuador; 2014</li>
+					<li>Education category winner at <a href="http://programacion.espol.edu.ec/pyweekend/">Pyweekend</a> II Hackathon. Guayaquil, Ecuador; 2018</li>
+					<li>Second place at <a href="https://www.i3lab.org/i3week-dthinkers">DThinkers</a> contest. Guayaquil, Ecuador; 2018</li>
+					<li>Coursera certificates available at <a href="https://www.linkedin.com/in/david-santistevan-amat/">Linkedin</a></li>
+				</p></ul>
+			</div>
+		</div>
+		
+		<div class="seccion" id="cursos">
+			<h2 class="titulo"> Non academic activities <button id='botonCursos' onclick="ocultarSeccion('cursos','botonCursos',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-cursos">
+				<p><ul>
+					<li>High School Basketall team member; Guayaquil 2015-2017</li>
+					<li>Gracie Jiu-Jitsu; 2014-Today</li>
+				</p></ul>
+			</div>
+		</div>
+
+		<div class="seccion" id="conocimientos">
+			<h2 class="titulo">Knowledge<button id='botonConocimientos' onclick="ocultarSeccion('conocimientos','botonConocimientos',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-conocimientos">
+				<ul>
+					<li>HTML - 5 years</li>
+					<li>CSS - 5 years</li>
+					<li>Python - 3 years
+						<ul>
+							<li>Numpy</li>
+							<li>Matplotlib</li>
+							<li>Pandas</li>
+							<li>Seaborn</li>
+							<li>Django</li>
+						</ul>
+					</li>
+					<li>Java - 3 years
+						<ul>
+							<li>JavaFX</li>
+							<li>AspectJ</li>
+							<li>Android Studio</li>
+							<li>JUnit</li>
+						</ul>
+					</li>
+					<li>MySQL - 2 years</li>
+					<li>C - 2 year</li>
+					<li>JavaScript/TypeScript - 2 years</li>
+						<ul>
+							<li>Node.js</li>
+							<li>Express</li>
+							<li>Angular</li>
+						</ul>
+					<li>Dart -  1 year
+						<ul>
+							<li>Flutter</li>
+						</ul>
+					</li>
+					<li>R - 1 year</li>
+					<li>Ruby - 1 year
+						<ul>
+							<li>Ruby on Rails</li>
+						</ul>	
+					</li>
+					<li>Clojure - < 1 year </li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="seccion" id="proyectos">
+			<h2 class="titulo"> Projects <button id='botonProyectos' onclick="ocultarSeccion('proyectos','botonProyectos',1)">Hide</button></h2>
+			<div class="elementos" id="elementos-proyectos">
+				<p><ul>
+					<li>Software to classify sujects based on the Sustainable Development Goals; ESPOL, Guayaquil, Ecuador 2018</li>
+					<li>Software to plan schedules; Guayaquil, Ecuador 2019</li>
+				</p></ul>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -131,3 +131,7 @@ button:hover {
 .seccion:nth-child(even){
 	background-color: #eeeeee;
 }
+
+h1 {
+	margin-bottom: 0;
+}
