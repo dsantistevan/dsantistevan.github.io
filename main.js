@@ -26,4 +26,6 @@ function fecha(){
     
 }
 
-fecha();
+document.addEventListener("DOMContentLoaded", function(){
+	fecha();
+}
