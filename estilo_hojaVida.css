@@ -99,6 +99,12 @@ tr
 	
 }
 
+tr[style~="hidden"]
+{
+	border-bottom: transparent;
+	
+}
+
 button {
 	background-color: #0080FF;
 	border: none;
