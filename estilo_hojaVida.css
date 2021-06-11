@@ -99,7 +99,7 @@ tr
 	
 }
 
-div[style~="hidden"] tr
+div[style*="hidden"] tr
 {
 	border-bottom: transparent;
 	
