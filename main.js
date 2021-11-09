@@ -1,12 +1,12 @@
 function mostrarSeccion(nombreSeccion,idButton, eng){
-    document.getElementById("elementos-"+nombreSeccion).style.visibility="visible";
+    document.getElementById("elementos-"+nombreSeccion).style.display="block";
     document.getElementById("elementos-"+nombreSeccion).style.maxHeight=10000;
     document.getElementById(idButton).onclick=function(){ocultarSeccion(nombreSeccion,idButton, eng);};
     document.getElementById(idButton).innerHTML= eng ? "Hide" : "Ocultar";
 }
 
 function ocultarSeccion(nombreSeccion,idButton, eng){
-    document.getElementById("elementos-"+nombreSeccion).style.visibility="hidden";
+    document.getElementById("elementos-"+nombreSeccion).style.display="none";
     
     document.getElementById(idButton).onclick=function(){mostrarSeccion(nombreSeccion,idButton, eng);};
     document.getElementById(idButton).innerHTML=eng ? "Show" : "Mostrar";
