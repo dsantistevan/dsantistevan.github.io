@@ -141,3 +141,11 @@ button:hover {
 h1 {
 	margin-bottom: 0;
 }
+
+.elementos{
+	transition: all .3s ease;
+}
+
+.elementos-no *{
+	display: none;
+}
